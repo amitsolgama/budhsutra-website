@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BudhSutra makes business, markets and personal finance easier to understand through clear educational articles in English, Hindi and Gujarati.">
+  <meta name="theme-color" content="#101c2b">
+  <title>BudhSutra — Understand Money. Think Better.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="BudhSutra home">
+        <span class="brand-mark">बु</span>
+        <span>Budh<span class="brand-gold">Sutra</span><small data-i18n="tagline">Understand Money. Think Better.</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#articles" data-i18n="navArticles">Articles</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <label class="language-picker">
+        <span class="sr-only" data-i18n="languageLabel">Choose language</span>
+        <select id="languageSelect" aria-label="Choose language">
+          <option value="en">English</option>
+          <option value="hi">हिन्दी</option>
+          <option value="gu">ગુજરાતી</option>
+        </select>
+      </label>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">FINANCE • BUSINESS • EVERYDAY MONEY</p>
+          <h1 data-i18n="heroTitle">Understand money.<br><em>Think better.</em></h1>
+          <p class="hero-intro" data-i18n="heroIntro">Clear, practical explainers that help you make sense of business, markets and personal finance — without the noise.</p>
+          <a class="button button-primary" href="#articles" data-i18n="explore">Explore articles <span aria-hidden="true">↗</span></a>
+          <p class="hero-note" data-i18n="heroNote">Independent financial education. No stock tips. No guaranteed-return claims.</p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="hero-card">
+            <span class="card-kicker">BUDHSUTRA / 01</span>
+            <div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="hero-card-bottom"><span>KNOWLEDGE</span><b>→</b><span>CLARITY</span></div>
+          </div>
+          <span class="floating-symbol symbol-one">₹</span>
+          <span class="floating-symbol symbol-two">∑</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-items">
+        <span data-i18n="trust1">Made for curious minds</span>
+        <span data-i18n="trust2">Simple language</span>
+        <span data-i18n="trust3">Research-led explainers</span>
+        <span data-i18n="trust4">English • हिन्दी • ગુજરાતી</span>
+      </div>
+    </section>
+
+    <section class="section articles-section" id="articles">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow" data-i18n="latestEyebrow">THE KNOWLEDGE DESK</p><h2 data-i18n="latestTitle">Explore the ideas behind money.</h2></div>
+          <span class="section-index">01 / ARTICLES</span>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filter articles">
+          <button class="filter-chip active" data-filter="all" data-i18n="filterAll">All articles</button>
+          <button class="filter-chip" data-filter="business" data-i18n="filterBusiness">Business</button>
+          <button class="filter-chip" data-filter="markets" data-i18n="filterMarkets">Markets</button>
+          <button class="filter-chip" data-filter="personal" data-i18n="filterPersonal">Personal finance</button>
+        </div>
+        <div class="article-grid" id="articleGrid">
+          <article class="article-card" data-category="business">
+            <div class="article-visual visual-business"><span>01</span><b>BUSINESS<br>MODEL</b><i>↗</i></div>
+            <div class="article-meta"><span data-i18n="categoryBusiness">BUSINESS</span><span>5 MIN READ</span></div>
+            <h3 data-i18n="article1Title">How does a company actually make money?</h3>
+            <p data-i18n="article1Desc">Learn to look beyond a popular brand name and understand revenue, costs and profit.</p>
+            <a class="text-link" href="articles/how-companies-make-money.html" data-i18n="readArticle">Read article <span>→</span></a>
+          </article>
+          <article class="article-card" data-category="markets">
+            <div class="article-visual visual-markets"><span>02</span><b>PRICE<br>VS VALUE</b><i>↗</i></div>
+            <div class="article-meta"><span data-i18n="categoryMarkets">MARKETS</span><span>6 MIN READ</span></div>
+            <h3 data-i18n="article2Title">What does a P/E ratio tell you — and what doesn't it?</h3>
+            <p data-i18n="article2Desc">A beginner-friendly guide to one widely used valuation measure and its limitations.</p>
+            <a class="text-link" href="articles/understanding-pe-ratio.html" data-i18n="readArticle">Read article <span>→</span></a>
+          </article>
+          <article class="article-card" data-category="personal">
+            <div class="article-visual visual-personal"><span>03</span><b>LOAN<br>DECISIONS</b><i>↗</i></div>
+            <div class="article-meta"><span data-i18n="categoryPersonal">PERSONAL FINANCE</span><span>5 MIN READ</span></div>
+            <h3 data-i18n="article3Title">EMI or prepayment: how should you think about it?</h3>
+            <p data-i18n="article3Desc">Understand the trade-offs between reducing debt, keeping liquidity and investing.</p>
+            <a class="text-link" href="articles/emi-or-prepayment.html" data-i18n="readArticle">Read article <span>→</span></a>
+          </article>
+        </div>
+        <p class="content-note" data-i18n="contentNote">These starter articles are educational drafts. Review and update facts, examples and sources before publishing them as editorial content.</p>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+        <div><p class="eyebrow" data-i18n="aboutEyebrow">WHY BUDHSUTRA</p><h2 data-i18n="aboutTitle">Less jargon.<br><em>More understanding.</em></h2></div>
+        <div class="about-copy"><p data-i18n="aboutText">BudhSutra is an independent learning project built to make finance and business easier to understand. We explain concepts, ask better questions and encourage readers to verify information before making financial decisions.</p><div class="principles"><span>01 / <b data-i18n="principle1">Clarity over complexity</b></span><span>02 / <b data-i18n="principle2">Education over hype</b></span><span>03 / <b data-i18n="principle3">Evidence over assumptions</b></span></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow" data-i18n="contactEyebrow">JOIN THE CONVERSATION</p><h2 data-i18n="contactTitle">What should we explain next?</h2><p data-i18n="contactText">Have a topic you want BudhSutra to unpack? Send us your suggestion.</p></div>
+        <a class="button button-light" href="mailto:hello@budhsutra.example?subject=BudhSutra%20topic%20suggestion" data-i18n="suggestTopic">Suggest a topic ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top"><a class="brand footer-brand" href="index.html"><span class="brand-mark">बु</span><span>Budh<span class="brand-gold">Sutra</span><small data-i18n="tagline">Understand Money. Think Better.</small></span></a><p data-i18n="footerLine">A learning initiative for better financial understanding.</p></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> BudhSutra</span><div><a href="privacy.html" data-i18n="privacy">Privacy</a><a href="disclaimer.html" data-i18n="disclaimer">Disclaimer</a></div></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
