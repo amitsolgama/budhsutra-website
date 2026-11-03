@@ -1,6 +1,4 @@
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://solgama.budhsutra.workers.dev/</loc>
   </url>
@@ -10,7 +8,6 @@
   <url>
     <loc>https://solgama.budhsutra.workers.dev/disclaimer.html</loc>
   </url>
-
   <url>
     <loc>https://solgama.budhsutra.workers.dev/articles/how-companies-make-money.html</loc>
   </url>
@@ -20,7 +17,6 @@
   <url>
     <loc>https://solgama.budhsutra.workers.dev/articles/how-companies-make-money-gu.html</loc>
   </url>
-
   <url>
     <loc>https://solgama.budhsutra.workers.dev/articles/understanding-pe-ratio.html</loc>
   </url>
@@ -30,7 +26,6 @@
   <url>
     <loc>https://solgama.budhsutra.workers.dev/articles/understanding-pe-ratio-gu.html</loc>
   </url>
-
   <url>
     <loc>https://solgama.budhsutra.workers.dev/articles/emi-or-prepayment.html</loc>
   </url>
@@ -40,5 +35,4 @@
   <url>
     <loc>https://solgama.budhsutra.workers.dev/articles/emi-or-prepayment-gu.html</loc>
   </url>
-
 </urlset>
