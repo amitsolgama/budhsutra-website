@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://solgama.budhsutra.workers.dev/sitemap.xml
